@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Tigo Conecta",
+    "slug": "tigo-conecta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/iconoTigo.png",
+    "scheme": "tigoconecta",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/iconoTigo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-video"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/iconoTigo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tigo.conecta"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/iconoTigo.png"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cb35108f-2916-4164-ad1b-d4790c616ab1"
+      },
+      "EXPO_PUBLIC_SUPABASE_URL": "https://dzuakehlhrpoijrksrld.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR6dWFrZWhsaHJwb2lqcmtzcmxkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM0MTI4MjgsImV4cCI6MjA3ODk4ODgyOH0.yRmx2Jm9X5-qKCULPTAZdKUflOtvnZMv-6JPyfj689o"
+    }
+  }
+}
